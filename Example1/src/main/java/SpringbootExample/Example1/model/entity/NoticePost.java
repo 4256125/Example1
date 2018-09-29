@@ -17,7 +17,7 @@ import lombok.Data;
 public class NoticePost {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "NOTICE_NUM")
 	private Integer noticeNum;
 	
